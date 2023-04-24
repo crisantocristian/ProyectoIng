@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles_chat.css">
+  <title>Chat</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Chats disponibles</h1>
+    <ul class="chat-list">
+      <!-- Repite este bloque por cada chat -->
+<li class="chat-item">
+    <img class="chat-image" src="./IMG_7563.jpg" alt="Imagen de chat 1">
+    <span class="chat-name">Lola </span>
+    <button class="chat-button" data-chat="1">Abrir chat</button>
+  </li>
+  <!-- Fin del bloque -->
+  
+      <!-- Repite este bloque por cada chat -->
+<li class="chat-item">
+    <img class="chat-image" src="./IMG_7559.jpg" alt="Imagen de chat 1">
+    <span class="chat-name">Ziu</span>
+    <button class="chat-button" data-chat="1">Abrir chat</button>
+  </li>
+  <!-- Fin del bloque -->
+  
+       <!-- Repite este bloque por cada chat -->
+<li class="chat-item">
+    <img class="chat-image" src="./IMG_7560.jpg" alt="Imagen de chat 1">
+    <span class="chat-name">Cantaritos</span>
+    <button class="chat-button" data-chat="1">Abrir chat</button>
+  </li>
+  <!-- Fin del bloque -->
+  
+      <!-- Repite este bloque por cada chat -->
+<li class="chat-item">
+    <img class="chat-image" src="./IMG_7561.jpg" alt="Imagen de chat 1">
+    <span class="chat-name"> Roto </span>
+    <button class="chat-button" data-chat="1">Abrir chat</button>
+  </li>
+  <!-- Fin del bloque -->
+  
+    </ul>
+
+    <div id="chat-container" class="hidden">
+      <h2 id="chat-title">¿Qué tal esta?</h2>
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Escribe tu comentario...">
+        <button type="submit">Enviar</button>
+        
+      </form>
+    </div>
+  </div>
+  <script src="scripts_chat.js"></script>
+</body>
+</html>
